@@ -1,4 +1,3 @@
-using UnityEngine;
 
 public class Sword : Item
 {
@@ -17,5 +16,5 @@ public class Sword : Item
         transform.localRotation = Quaternion.Euler(swordUp);
         player.Damage += Damage;
     }
-    
+
 }

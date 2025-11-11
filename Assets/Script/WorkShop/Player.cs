@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Player : Character
 {
+    
+
     [Header("Hand setting")]
     public Transform RightHand;
     public Transform LeftHand;

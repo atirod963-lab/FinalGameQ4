@@ -7,7 +7,8 @@ public class Character : Identity, Idestoryable
 {
     int _health;
     public AudioClip SoundDead;
-    public int health {
+    public int health
+    {
         get { return _health; }
         set { _health = Mathf.Clamp(value, 0, _maxHealth); }
     }
@@ -35,10 +36,12 @@ public class Character : Identity, Idestoryable
             Debug.LogError("Animator component not found on " + gameObject.name);
         }
     }
-    public virtual void TakeDamage(int amount) {
-        amount = Mathf.Clamp(amount- Deffent, 1, amount);
+    public virtual void TakeDamage(int amount)
+    {
+        amount = Mathf.Clamp(amount - Deffent, 1, amount);
         health -= amount;
-        if (health <= 0) {
+        if (health <= 0)
+        {
             SoundManager.instance.PlaySFX(SoundDead);
             OnDestory?.Invoke(this);
             Destroy(gameObject);
@@ -62,5 +65,5 @@ public class Character : Identity, Idestoryable
         animator.SetFloat("Speed", rb.linearVelocity.magnitude);
     }
 
- 
+
 }
