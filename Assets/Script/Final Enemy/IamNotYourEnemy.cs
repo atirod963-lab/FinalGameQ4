@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+﻿using System.Threading;
+using UnityEngine;
 
 public class IamNotYourEnemy : Enemy
 {
+    private float healTimer = 0f;
 
     // Update is called once per frame
     private void Update()
@@ -17,13 +19,19 @@ public class IamNotYourEnemy : Enemy
 
         if (health < maxHealth)
         {
+            healTimer += Time.deltaTime;
+            if (healTimer >= 1f)
+            {
+                Heal(15);
+                healTimer = 0f;
+            }
             animator.SetBool("Attack", false);
             Vector3 direction = (player.transform.position - transform.position).normalized;
-            Move(direction); // เดินเข้าหาเสมอเมื่อเลือดลด
+            Move(direction);
 
             if (GetDistanPlayer() < 1.5)
             {
-                Attack(player); // โจมตีเมื่อใกล้
+                Attack(player);
             }
         }
         else

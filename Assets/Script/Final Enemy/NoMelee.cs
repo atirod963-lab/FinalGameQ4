@@ -1,9 +1,7 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class NewMonoBehaviourScript : Enemy
+public class NoMelee : Enemy
 {
-
     private void Update()
     {
         if (player == null)
@@ -14,14 +12,14 @@ public class NewMonoBehaviourScript : Enemy
         Turn(player.transform.position - transform.position);
         timer -= Time.deltaTime;
 
-        if (GetDistanPlayer() < 1.5)
+        if (GetDistanPlayer() > 5)
         {
             Attack(player);
         }
         else
         {
             animator.SetBool("Attack", false);
-            Vector3 direction = (player.transform.position - transform.position).normalized;
+            Vector3 direction = (player.transform.position + transform.position).normalized;
             Move(direction);
         }
     }
