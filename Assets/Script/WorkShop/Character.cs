@@ -44,6 +44,7 @@ public class Character : Identity, Idestoryable
         {
             SoundManager.instance.PlaySFX(SoundDead);
             OnDestory?.Invoke(this);
+            UpgradeManager.instance.RegisterEnemyKill(gameObject);
             Destroy(gameObject);
         }
     }

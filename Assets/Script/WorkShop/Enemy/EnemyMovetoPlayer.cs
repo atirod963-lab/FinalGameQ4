@@ -1,4 +1,4 @@
-using Unity.VisualScripting;
+﻿using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyMovetoPlayer : Enemy
@@ -24,5 +24,9 @@ public class EnemyMovetoPlayer : Enemy
             Vector3 direction = (player.transform.position - transform.position).normalized;
             Move(direction);
         }
+
+
     }
+
+
 }

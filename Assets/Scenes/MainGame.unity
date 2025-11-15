@@ -199,7 +199,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: 
   SoundUsedItem: {fileID: 0}
-  Damage: 10
+  damage: 0
+  range: 0
+  attackSpeed: 0
+  currentLevel: 1
+  maxLevel: 4
 --- !u!135 &81107524
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1512,7 +1516,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4059abe168e60ef4abcff34661475bc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  killsToUpgrade: 3
+  killsForUpgrade: 3
+  currentKillCount: 0
 --- !u!1 &974205316
 GameObject:
   m_ObjectHideFlags: 0

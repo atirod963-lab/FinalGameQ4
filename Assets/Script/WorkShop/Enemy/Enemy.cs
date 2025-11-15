@@ -29,13 +29,14 @@ public class Enemy : Character
         }
     }
 
-    
+
     protected override void Turn(Vector3 direction)
     {
         Quaternion lookRotation = Quaternion.LookRotation(direction);
         transform.rotation = lookRotation;
     }
-    protected virtual void Attack(Player _player) {
+    protected virtual void Attack(Player _player)
+    {
         if (timer <= 0)
         {
             _player.TakeDamage(Damage);
@@ -43,6 +44,8 @@ public class Enemy : Character
             Debug.Log($"{Name} attacks {_player.Name} for {Damage} damage.");
             timer = TimeToAttack;
         }
-        
+
     }
+
+
 }
