@@ -689,6 +689,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 38335279662569219, guid: 34d3f526198dae440bb2ce6005d86055, type: 3}
   m_PrefabInstance: {fileID: 127040968}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &127324187
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6058404453840575955, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_Name
+      value: SlimePBR I'm not your enemy (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.760001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
 --- !u!1 &129632359
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,12 +792,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129632359}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.2955, y: 4.95, z: 20.48}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.87501, y: 5.172513, z: 16.326021}
   m_LocalScale: {x: 44.36558, y: 44.36558, z: 6.0204096}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 532102185}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &144201113
 PrefabInstance:
@@ -1238,6 +1295,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4385080170327957909, guid: ff62b58c5a9ea164fa8ddf8038e10cd1, type: 3}
   m_PrefabInstance: {fileID: 178857752}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &180623252
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6058404453840575955, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_Name
+      value: SlimePBR I'm not your enemy (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.760001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
 --- !u!1001 &184178060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1300,6 +1414,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5440707293445741943, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}
   m_PrefabInstance: {fileID: 184178060}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &207920869
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6058404453840575955, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_Name
+      value: SlimePBR I'm not your enemy (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.760001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
 --- !u!1001 &214684944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2521,13 +2692,70 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376967790}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 19.3, y: 4.95, z: 1.1}
-  m_LocalScale: {x: 44.36558, y: 44.36558, z: 6.0204096}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 11.7204895, y: 5.172513, z: -3.053979}
+  m_LocalScale: {x: 44.365578, y: 44.36558, z: 6.02041}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 532102185}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1001 &388337504
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6058404453840575955, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_Name
+      value: SlimePBR I'm not your enemy (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.760001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
 --- !u!1001 &399772066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2835,6 +3063,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 430824, guid: 38ade0ba7c293f14a9b1b610879e9390, type: 3}
   m_PrefabInstance: {fileID: 410775499}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &431917358
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6058404453840575955, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_Name
+      value: SlimePBR I'm not your enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.760001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
 --- !u!1001 &436037355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3517,6 +3802,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5186735023777053022, guid: ac8efb728f1fb9b4092c4df591c827ca, type: 3}
   m_PrefabInstance: {fileID: 519965972}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &532102184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 532102185}
+  m_Layer: 0
+  m_Name: Wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &532102185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532102184}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.5795097, y: -0.22251327, z: 4.153979}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 129632361}
+  - {fileID: 826708898}
+  - {fileID: 376967792}
+  - {fileID: 823356781}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &537499002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3765,6 +4085,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1493958779012619316, guid: b9de24523a11d714db3851b5f0f9d527, type: 3}
   m_PrefabInstance: {fileID: 555741346}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &564418725
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6058404453840575955, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_Name
+      value: SlimePBR I'm not your enemy (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.760001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
 --- !u!1001 &566871632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3889,6 +4266,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3899520030807063256, guid: 299e7a1cb6456cf4fa6079cf5978df9b, type: 3}
   m_PrefabInstance: {fileID: 576135789}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &587150239
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6058404453840575955, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_Name
+      value: SlimePBR I'm not your enemy (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.760001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
 --- !u!1001 &593497550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4548,6 +4982,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5440707293445741943, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}
   m_PrefabInstance: {fileID: 678588885}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &683295080
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6058404453840575955, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_Name
+      value: SlimePBR I'm not your enemy (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.760001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
 --- !u!1001 &693852275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4796,6 +5287,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 460948, guid: 7641c7e8354e2c44cab6432d9d2c6d1b, type: 3}
   m_PrefabInstance: {fileID: 722277974}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &731684062
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6058404453840575955, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_Name
+      value: SlimePBR I'm not your enemy (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.760001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
 --- !u!1 &761812430
 GameObject:
   m_ObjectHideFlags: 0
@@ -5157,6 +5705,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5186735023777053022, guid: ac8efb728f1fb9b4092c4df591c827ca, type: 3}
   m_PrefabInstance: {fileID: 788396113}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &791673428
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6058404453840575955, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_Name
+      value: SlimePBR I'm not your enemy (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.760001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
 --- !u!1001 &800683172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5266,11 +5871,11 @@ Transform:
   m_GameObject: {fileID: 823356779}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.70448446, z: -0, w: -0.7097195}
-  m_LocalPosition: {x: -18.8, y: 4.95, z: 1.3}
-  m_LocalScale: {x: 44.36558, y: 44.36558, z: 6.0204096}
+  m_LocalPosition: {x: -26.379509, y: 5.172513, z: -2.8539789}
+  m_LocalScale: {x: 44.36558, y: 44.36558, z: 6.020409}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 532102185}
   m_LocalEulerAnglesHint: {x: 0, y: 270.424, z: 0}
 --- !u!1001 &824351043
 PrefabInstance:
@@ -5381,11 +5986,11 @@ Transform:
   m_GameObject: {fileID: 826708896}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.99999315, z: -0, w: -0.0037014934}
-  m_LocalPosition: {x: 0.7, y: 4.95, z: -21.3}
-  m_LocalScale: {x: 44.36558, y: 44.36558, z: 6.0204096}
+  m_LocalPosition: {x: -6.87951, y: 5.172513, z: -25.453978}
+  m_LocalScale: {x: 44.36558, y: 44.36558, z: 6.0204105}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 532102185}
   m_LocalEulerAnglesHint: {x: 0, y: 180.424, z: 0}
 --- !u!1001 &827874513
 PrefabInstance:
@@ -6085,6 +6690,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 38335279662569219, guid: 34d3f526198dae440bb2ce6005d86055, type: 3}
   m_PrefabInstance: {fileID: 918620530}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &931225222
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6058404453840575955, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_Name
+      value: SlimePBR I'm not your enemy (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.760001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
 --- !u!1001 &940182936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6907,6 +7569,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1686021177305034388, guid: ebee340de387f334f9ac44e044abd8fb, type: 3}
   m_PrefabInstance: {fileID: 1005731340}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1027839838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6058404453840575955, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_Name
+      value: SlimePBR I'm not your enemy (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.760001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
 --- !u!1001 &1053261679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9535,6 +10254,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 474106, guid: 069e1e44b643edc4fb4a9d4311a78fb7, type: 3}
   m_PrefabInstance: {fileID: 1445825655}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1453234710
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6058404453840575955, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_Name
+      value: SlimePBR I'm not your enemy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.760001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
 --- !u!1001 &1455644759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11374,6 +12150,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 421498, guid: a1d34f7914a1d8148a0ce7262f7ba394, type: 3}
   m_PrefabInstance: {fileID: 1827023576}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1844325869
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6058404453840575955, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_Name
+      value: SlimePBR I'm not your enemy (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.760001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071781642109280114, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7366783c691985743b85a2b0ff5cf0fd, type: 3}
 --- !u!1001 &1844776902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13493,7 +14326,18 @@ SceneRoots:
   - {fileID: 621670647}
   - {fileID: 304308746}
   - {fileID: 761812431}
-  - {fileID: 129632361}
-  - {fileID: 826708898}
-  - {fileID: 376967792}
-  - {fileID: 823356781}
+  - {fileID: 431917358}
+  - {fileID: 587150239}
+  - {fileID: 180623252}
+  - {fileID: 1453234710}
+  - {fileID: 564418725}
+  - {fileID: 731684062}
+  - {fileID: 931225222}
+  - {fileID: 207920869}
+  - {fileID: 1027839838}
+  - {fileID: 1844325869}
+  - {fileID: 388337504}
+  - {fileID: 127324187}
+  - {fileID: 791673428}
+  - {fileID: 683295080}
+  - {fileID: 532102185}

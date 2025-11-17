@@ -1,9 +1,8 @@
-using System.Collections.Generic;
+๏ปฟusing System.Collections.Generic;
 using UnityEngine;
 
 public class Player : Character
 {
-    
 
     [Header("Hand setting")]
     public Transform RightHand;
@@ -19,7 +18,10 @@ public class Player : Character
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
         health = maxHealth;
+
+        StartCoroutine(AutoRegen());
     }
+
 
     public void FixedUpdate()
     {
@@ -75,7 +77,6 @@ public class Player : Character
 
         }
     }
-    //เพิ่มเติมฟังก์ชันการรักษาและรับความเสียหาย
 
     public override void TakeDamage(int amount)
     {
@@ -89,5 +90,19 @@ public class Player : Character
         base.Heal(amount);
         GameManager.instance.UpdateHealthBar(health, maxHealth);
     }
+
+    private System.Collections.IEnumerator AutoRegen()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(3.5f);
+
+            if (health < maxHealth)
+            {
+                Heal(2);
+            }
+        }
+    }
+
 
 }

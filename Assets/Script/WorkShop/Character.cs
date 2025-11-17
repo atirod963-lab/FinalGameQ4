@@ -43,10 +43,14 @@ public class Character : Identity, Idestoryable
         if (health <= 0)
         {
             SoundManager.instance.PlaySFX(SoundDead);
+
+            KillManager.instance.AddKill();
+
             OnDestory?.Invoke(this);
             UpgradeManager.instance.RegisterEnemyKill(gameObject);
             Destroy(gameObject);
         }
+
     }
     public virtual void Heal(int amount)
     {

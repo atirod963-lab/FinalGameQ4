@@ -5,7 +5,6 @@ public class LoadSceneManager : MonoBehaviour
 {
     public static LoadSceneManager instance;
 
-    // ⭐ SpawnID สำหรับซีนถัดไป
     public string NextSpawnID = "Default";
 
     private void Awake()

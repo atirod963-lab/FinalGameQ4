@@ -22,7 +22,7 @@ public class IamNotYourEnemy : Enemy
             healTimer += Time.deltaTime;
             if (healTimer >= 1f)
             {
-                Heal(15);
+                Heal(20);
                 healTimer = 0f;
             }
             animator.SetBool("Attack", false);

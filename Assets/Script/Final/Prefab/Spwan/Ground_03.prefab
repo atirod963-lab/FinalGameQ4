@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8286733947514534441}
   m_Layer: 0
   m_Name: Ground_03
-  m_TagString: Untagged
+  m_TagString: WarpGate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,8 +123,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: Gate Dungeons
+  SoundUsedItem: {fileID: 0}
   BackgroundMusic: {fileID: 8300000, guid: bef0cef2ded0f0645ad90c6e5bdd4965, type: 3}
   LoadSceneName: Dungeons
+  SpawnID: 
 --- !u!1001 &8696272334256255856
 PrefabInstance:
   m_ObjectHideFlags: 0

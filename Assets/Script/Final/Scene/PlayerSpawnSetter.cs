@@ -16,10 +16,8 @@ public class PlayerSpawnSetter : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // SpawnID ถูกส่งมาจาก TriggerLoadScene
         string spawnID = LoadSceneManager.instance.NextSpawnID;
 
-        // หาทุกจุด spawn
         SpawnPoint[] spawnPoints = FindObjectsOfType<SpawnPoint>();
 
         foreach (var sp in spawnPoints)
