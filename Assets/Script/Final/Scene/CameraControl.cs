@@ -6,6 +6,12 @@ public class CameraControl : MonoBehaviour
     public float smoothSpeed = 0.125f;
     public Vector3 offset = new Vector3(0, 0, -10);
 
+
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     void FixedUpdate()
     {
         Follow();
@@ -18,4 +24,5 @@ public class CameraControl : MonoBehaviour
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
         transform.position = smoothedPosition;
     }
+
 }
