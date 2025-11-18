@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -44,10 +44,13 @@ public class Character : Identity, Idestoryable
         {
             SoundManager.instance.PlaySFX(SoundDead);
 
-            KillManager.instance.AddKill();
+            if (GetComponent<Enemy>() != null)
+            {
+                KillManager.instance.AddKill();
+                UpgradeManager.instance.RegisterEnemyKill(gameObject);
+            }
 
             OnDestory?.Invoke(this);
-            UpgradeManager.instance.RegisterEnemyKill(gameObject);
             Destroy(gameObject);
         }
 
