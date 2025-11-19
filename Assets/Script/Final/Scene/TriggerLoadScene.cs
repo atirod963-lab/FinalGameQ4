@@ -14,7 +14,7 @@ public class TriggerLoadScene : Item
         base.OnCollect(player);
 
         int required = QuestManagerFinal.instance.currentQuest.mainKillRequired;
-        int currentKills = KillManager.instance.killCount;
+        int currentKills = KillManager.instance.totolkilcount;
 
         if (currentKills < required)
         {

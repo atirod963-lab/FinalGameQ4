@@ -5,6 +5,11 @@ public class IamNotYourEnemy : Enemy
 {
     private float healTimer = 0f;
 
+    public override void SetUP()
+    {
+        base.SetUP();
+       
+    }
     // Update is called once per frame
     private void Update()
     {
@@ -39,5 +44,11 @@ public class IamNotYourEnemy : Enemy
             animator.SetBool("Attack", false);
         }
     }
+
+    /*public override void OnDeath()
+    {
+        base.OnDeath();
+        UpgradeManager.instance.RegisterEnemyKill(gameObject);
+    }*/
 
 }

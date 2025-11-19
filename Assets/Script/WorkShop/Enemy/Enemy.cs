@@ -29,7 +29,11 @@ public class Enemy : Character
         }
     }
 
-
+    /*public override void OnDeath()
+    {
+        base.OnDeath();
+        KillManager.instance.AddKill();
+    }*/
     protected override void Turn(Vector3 direction)
     {
         Quaternion lookRotation = Quaternion.LookRotation(direction);

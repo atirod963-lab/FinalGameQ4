@@ -3,12 +3,16 @@
 public class UpgradeManager : MonoBehaviour
 {
     public static UpgradeManager instance;
+    public KillManager KillManager;
+
+    
+
 
     [Header("Upgrade Settings")]
     [SerializeField] private int killsForUpgrade = 3;
 
     [Header("Tracking")]
-    [SerializeField] private int currentKillCount = 0;
+    [SerializeField] private int StartKillUpgrade = 0;
 
     private Weapon activeWeapon;
 
@@ -29,13 +33,14 @@ public class UpgradeManager : MonoBehaviour
     {
         if (activeWeapon == null) return;
 
-        if (currentKillCount >= killsForUpgrade)
-        {
-            activeWeapon.TryUpgrade();
-            currentKillCount = 0;
+        //KillManager.instance.killCount = _killCount;
+        //if (currentKillCount >= killsForUpgrade)
+        //{
+        //    activeWeapon.TryUpgrade();
+        //    currentKillCount = 0;
 
-            Debug.Log($"<color=yellow>ทำการอัปเกรดหลังฆ่า {killsForUpgrade} ตัว</color>");
-        }
+        //    Debug.Log($"<color=yellow>ทำการอัปเกรดหลังฆ่า {killsForUpgrade} ตัว</color>");
+        //}
     }
 
     public void RegisterEnemyKill(GameObject enemy)
@@ -46,17 +51,25 @@ public class UpgradeManager : MonoBehaviour
             return;
         }
 
-        if (enemy.CompareTag("Enemy"))
+        /*if (enemy.CompareTag("Enemy"))
         {
             currentKillCount++;
             Debug.Log($"Enemy +1 ( {currentKillCount}/{killsForUpgrade} )");
+        }*/
+
+        if (KillManager.instance.KillCountUpgrate >= killsForUpgrade)
+        {
+            activeWeapon.TryUpgrade();
+            KillManager.instance.KillCountUpgrate = 0;
+
+            Debug.Log($"<color=yellow>ทำการอัปเกรดหลังฆ่า {killsForUpgrade} ตัว</color>");
         }
     }
 
     public void SetActiveWeapon(Weapon newWeapon)
     {
         activeWeapon = newWeapon;
-        currentKillCount = 0;
+        KillManager.instance.KillCountUpgrate = 0;
 
         Debug.Log($"<color=cyan>ตั้งค่าอาวุธ:</color> {activeWeapon.Name} (LV {activeWeapon.CurrentLevel})");
     }

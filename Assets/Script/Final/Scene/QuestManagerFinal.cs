@@ -50,6 +50,6 @@ public class QuestManagerFinal : MonoBehaviour
     {
         if (currentQuest == null) return true;
 
-        return KillManager.instance.killCount >= currentQuest.mainKillRequired;
+        return KillManager.instance.totolkilcount >= currentQuest.mainKillRequired;
     }
 }

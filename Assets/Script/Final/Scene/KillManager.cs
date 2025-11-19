@@ -4,7 +4,8 @@ public class KillManager : MonoBehaviour
 {
     public static KillManager instance;
 
-    public int killCount = 0;
+    public int totolkilcount = 0;
+    public int KillCountUpgrate = 0;
 
     private void Awake()
     {
@@ -18,11 +19,12 @@ public class KillManager : MonoBehaviour
 
     public void AddKill()
     {
-        killCount++;
+        totolkilcount++;
+        KillCountUpgrate++;
     }
 
     public void ResetKill()
     {
-        killCount = 0;
+        totolkilcount = 0;
     }
 }

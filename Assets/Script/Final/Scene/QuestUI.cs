@@ -24,7 +24,7 @@ public class QuestUI : MonoBehaviour
         }
 
         var quest = QuestManagerFinal.instance.currentQuest;
-        int currentKills = KillManager.instance.killCount;
+        int currentKills = KillManager.instance.totolkilcount;
 
         // ⭐ แสดงชื่อ Quest หลัก
         string main = $"{quest.mainQuestName}: {currentKills}/{quest.mainKillRequired}";

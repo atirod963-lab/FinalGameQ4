@@ -51,10 +51,15 @@ public class Character : Identity, Idestoryable
             }
 
             OnDestory?.Invoke(this);
+            OnDeath();
             Destroy(gameObject);
         }
 
     }
+    public virtual void OnDeath() { 
+        
+    }
+
     public virtual void Heal(int amount)
     {
         health += amount;
