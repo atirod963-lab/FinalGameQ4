@@ -43,4 +43,22 @@ public abstract class Weapon : Item
     }
 
     protected abstract void Upgrade();
+
+    protected void UpdateWeaponUI()
+    {
+        if (WeaponUIManager.Instance != null)
+        {
+            string status =
+                $"{Name} Lv.{currentLevel}   DMG:{damage}  RNG:{range}  SPD:{attackSpeed}";
+            WeaponUIManager.Instance.UpdateWeaponStatus(status);
+        }
+    }
+
+    protected void ShowUpgradeText(string text)
+    {
+        if (WeaponUIManager.Instance != null)
+        {
+            WeaponUIManager.Instance.ShowFloatingText(text);
+        }
+    }
 }
