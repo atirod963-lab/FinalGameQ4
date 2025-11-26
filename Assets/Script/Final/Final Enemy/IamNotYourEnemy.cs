@@ -33,6 +33,7 @@ public class IamNotYourEnemy : Enemy
             if (GetDistanPlayer() < 1.5)
             {
                 Attack(player);
+                animator.SetFloat("Speed", 0);
             }
         }
         else

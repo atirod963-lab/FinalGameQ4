@@ -65,7 +65,7 @@ public class Sword : Weapon
     {
         base.OnCollect(player);
 
-        Vector3 swordUp = new Vector3(90, 0, 0);
+        Vector3 swordUp = new Vector3(0, 0, 90);
         itemcollider.enabled = false;
         transform.parent = player.RightHand;
         transform.localPosition = Vector3.zero;
