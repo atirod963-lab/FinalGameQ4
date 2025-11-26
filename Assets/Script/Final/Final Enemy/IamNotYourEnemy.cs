@@ -5,10 +5,11 @@ public class IamNotYourEnemy : Enemy
 {
     private float healTimer = 0f;
 
+
     public override void SetUP()
     {
         base.SetUP();
-       
+
     }
     // Update is called once per frame
     private void Update()
@@ -24,13 +25,8 @@ public class IamNotYourEnemy : Enemy
 
         if (health < maxHealth)
         {
-            healTimer += Time.deltaTime;
-            if (healTimer >= 1f)
-            {
-                Heal(20);
-                healTimer = 0f;
-            }
             animator.SetBool("Attack", false);
+            Debug.Log("got damage");
             Vector3 direction = (player.transform.position - transform.position).normalized;
             Move(direction);
 
@@ -42,6 +38,13 @@ public class IamNotYourEnemy : Enemy
         else
         {
             animator.SetBool("Attack", false);
+            animator.SetFloat("Speed", 0);
+        }
+        healTimer += Time.deltaTime;
+        if (healTimer >= 1f)
+        {
+            Heal(20);
+            healTimer = 0f;
         }
     }
 
