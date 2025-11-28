@@ -81,7 +81,7 @@ public class Player : Character
     public override void TakeDamage(int amount)
     {
         base.TakeDamage(amount);
-
+        GameManager.instance.UpdateHealthText(health, maxHealth);
         GameManager.instance.UpdateHealthBar(health,maxHealth);
     }
 
@@ -89,6 +89,7 @@ public class Player : Character
     {
         base.Heal(amount);
         GameManager.instance.UpdateHealthBar(health, maxHealth);
+        GameManager.instance.UpdateHealthText(health, maxHealth);
     }
 
     private System.Collections.IEnumerator AutoRegen()

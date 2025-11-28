@@ -22,7 +22,6 @@ public class NoMelee : Enemy
 
         if (dist > safeDistance)
         {
-            animator.SetBool("Attack", true);
             Attack(player);
             return;
         }

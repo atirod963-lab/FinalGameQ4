@@ -26,7 +26,6 @@ public class YouMoveIShoot : Enemy
         }
         else if (!playerMoved)
         {
-            animator.SetBool("Attack", false);
         }
 
         lastPlayerPos = player.transform.position;

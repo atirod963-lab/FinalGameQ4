@@ -50,12 +50,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7a318391d7273754c8106514a8f88bb8, type: 3}
       propertyPath: m_Name
-      value: Hero_Nature_Body
+      value: Mage monster
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 7a318391d7273754c8106514a8f88bb8, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: e7a5925f5ca6edb4fac0a4957b18306a, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 7a318391d7273754c8106514a8f88bb8, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -150,6 +154,7 @@ MonoBehaviour:
   Deffent: 10
   movementSpeed: 3
   TimeToAttack: 1
+  safeDistance: 5
 --- !u!4 &5900599056442898854 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7041287755698089379, guid: 7a318391d7273754c8106514a8f88bb8, type: 3}
