@@ -2501,8 +2501,8 @@ MonoBehaviour:
   _name: 
   SoundDead: {fileID: 0}
   _maxHealth: 400
-  Damage: 10
-  Deffent: 10
+  Damage: 15
+  Deffent: 45
   movementSpeed: 3
   TimeToAttack: 1
 --- !u!136 &287801875260834122
