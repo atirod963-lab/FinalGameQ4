@@ -2,18 +2,21 @@
 
 public class Sword : Weapon
 {
+  
+
     protected override void Awake()
     {
         base.Awake();
 
-        // ค่าสถานะเริ่มต้นของดาบ
         damage = 10;
         range = 1f;
         attackSpeed = 1f;
         currentLevel = 1;
-        maxLevel = 4;
+        maxLevel = 6;
 
-        // โชว์ครั้งแรกตอนเริ่มเกม
+        // เซ็ต radius ตอนเริ่มเกม
+        
+
         UpdateWeaponUI();
     }
 
@@ -28,28 +31,36 @@ public class Sword : Weapon
         switch (currentLevel)
         {
             case 2:
-                damage += 5;
+                damage += 10;
                 range += 1f;
                 attackSpeed = 3f;
                 break;
-
             case 3:
+                damage += 20;
+                range += 1f;
+                attackSpeed = 3f;
+                break;
+            case 4:
                 damage += 5;
                 range += 1f;
                 attackSpeed = 3f;
                 break;
-
-            case 4:
+            case 5:
+                damage += 5;
+                range += 1f;
+                attackSpeed = 3f;
+                break;
+            case 6:
                 damage += 5;
                 range += 1f;
                 attackSpeed = 3f;
                 break;
         }
 
-        // อัปเดต UI สถานะอาวุธตลอดเวลา
+       
+
         UpdateWeaponUI();
 
-        // สร้างข้อความแสดงว่ามีการอัปเกรดอะไรบ้าง
         string upgradeMessage =
             $"Upgrade {Name} → Lv.{currentLevel}\n" +
             $"+{damage - oldDamage} DMG\n" +
@@ -57,7 +68,6 @@ public class Sword : Weapon
             $"SPD = {attackSpeed}";
 
         ShowUpgradeText(upgradeMessage);
-
         Debug.Log(upgradeMessage);
     }
 
@@ -71,8 +81,8 @@ public class Sword : Weapon
         transform.localPosition = Vector3.zero;
         transform.localRotation = Quaternion.Euler(swordUp);
         player.Damage += Damage;
-
-        // อัปเดต UI ตอนเก็บอาวุธครั้งแรก
+        player.SetAttackSpeed(attackSpeed);
         UpdateWeaponUI();
     }
+    
 }

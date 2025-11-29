@@ -10,7 +10,7 @@ public class FireballSkill : Skill
     public FireballSkill()
     {
         skillName = "Fireball";
-        cooldownTime = 8f;
+        cooldownTime = 5f;
     }
 
     public override void Activate(Character caster)

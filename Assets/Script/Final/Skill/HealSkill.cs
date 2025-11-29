@@ -4,15 +4,15 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "HealSkill", menuName = "Skills/HealSkill")]
 public class HealSkill : Skill
 {
-    public int healingAmountPerSecond = 5;
+    public int healingAmountPerSecond = 10;
 
     // ตัวแปรสำหรับเก็บค่าพลังชีวิตที่ต้องฟื้นฟูสะสม
     private float healAccumulator = 0f;
     public HealSkill()
     {
         this.skillName = "Heal";
-        this.cooldownTime = 8;
-        this.Duration = 5f; // ระยะเวลาที่สกิลมีผล
+        this.cooldownTime = 6;
+        this.Duration = 3f; // ระยะเวลาที่สกิลมีผล
     }
 
     public float Duration { get; set; }

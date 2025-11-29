@@ -70,7 +70,7 @@ public class Identity : MonoBehaviour
         }
     }
     // กำหนดรัศมีและระยะทางตามที่ใช้ในคุณสมบัติ InFront
-    float sphereRadius = 0.5f;
+    float sphereRadius = 2f;
     float maxDistance = 1f;
     private void Start()
     {

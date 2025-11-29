@@ -12,6 +12,8 @@ public class Player : Character
     Vector3 _inputDirection;
     bool _isAttacking = false;
     bool _isInteract = false;
+    private float TimeToAttack = 1f;
+    protected float timer = 0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,7 +23,10 @@ public class Player : Character
 
         StartCoroutine(AutoRegen());
     }
-
+    public void SetAttackSpeed(float speed)
+    {
+        TimeToAttack = 1f / speed;   // ยิ่ง speed สูง ยิ่งตีถี่
+    }
 
     public void FixedUpdate()
     {
@@ -53,8 +58,13 @@ public class Player : Character
         }
 
     }
-    public void Attack(bool isAttacking) {
-        if (isAttacking) {
+    public void Attack(bool isAttacking)
+    {
+        if (timer < 0)
+        {
+            timer = TimeToAttack;
+        }
+        if (isAttacking == true) {
             animator.SetTrigger("Attack");
             var e = InFront as Idestoryable;
             if (e != null)
@@ -63,6 +73,7 @@ public class Player : Character
                 Debug.Log($"{gameObject.name} attacks for {Damage} damage.");
             }
             _isAttacking = false;
+            
         }
     }
     private void Interact(bool interactable)
