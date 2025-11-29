@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "HealSkill", menuName = "Skills/HealSkill")]
 public class HealSkill : Skill
 {
-    public int healingAmountPerSecond = 10;
+    public int healingAmountPerSecond = 12;
 
     // ตัวแปรสำหรับเก็บค่าพลังชีวิตที่ต้องฟื้นฟูสะสม
     private float healAccumulator = 0f;

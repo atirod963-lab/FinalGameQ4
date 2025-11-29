@@ -2500,7 +2500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: 
   SoundDead: {fileID: 0}
-  _maxHealth: 200
+  _maxHealth: 400
   Damage: 10
   Deffent: 10
   movementSpeed: 3

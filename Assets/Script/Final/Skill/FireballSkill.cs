@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "FireballSkill", menuName = "Skills/FireballSkill")]
 public class FireballSkill : Skill
 {
-    public int damage = 15;
+    public int damage = 25;
     public float searchRadius = 5f; // ระยะหวังผลของสกิล
 
     public FireballSkill()
