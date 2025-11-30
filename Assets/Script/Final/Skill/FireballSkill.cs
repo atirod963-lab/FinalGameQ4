@@ -5,7 +5,7 @@ using UnityEngine;
 public class FireballSkill : Skill
 {
     public int damage = 25;
-    public float searchRadius = 5f; // ระยะหวังผลของสกิล
+    public float searchRadius = 5f; 
 
     public FireballSkill()
     {
@@ -15,15 +15,12 @@ public class FireballSkill : Skill
 
     public override void Activate(Character caster)
     {
-        // 1. ค้นหา Player ในฉาก (ระบุ UnityEngine.Object ให้ชัดเจน)
         Player target = UnityEngine.Object.FindAnyObjectByType<Player>();
 
         if (target != null)
         {
-            // 2. เช็คระยะห่างระหว่างคนร่าย (Boss/Enemy) กับ Player
             float distance = Vector3.Distance(caster.transform.position, target.transform.position);
 
-            // 3. ถ้าระยะถึง ให้ทำดาเมจ
             if (distance <= searchRadius)
             {
                 target.TakeDamage(damage);
@@ -42,11 +39,9 @@ public class FireballSkill : Skill
 
     public override void Deactivate(Character character)
     {
-        // ไม่มีผลต่อเนื่อง
     }
 
     public override void UpdateSkill(Character character)
     {
-        // ไม่มีผลต่อเนื่อง
     }
 }

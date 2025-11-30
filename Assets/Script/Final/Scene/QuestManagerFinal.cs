@@ -6,7 +6,7 @@ public class QuestManagerFinal : MonoBehaviour
     public static QuestManagerFinal instance;
 
     public QuestFinal currentQuest;
-    public QuestFinal[] quests; // ใส่ข้อมูลแต่ละห้องใน Inspector
+    public QuestFinal[] quests;
 
     private void Awake()
     {

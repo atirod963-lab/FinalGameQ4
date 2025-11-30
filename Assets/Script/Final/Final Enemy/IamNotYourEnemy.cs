@@ -49,10 +49,6 @@ public class IamNotYourEnemy : Enemy
         }
     }
 
-    /*public override void OnDeath()
-    {
-        base.OnDeath();
-        UpgradeManager.instance.RegisterEnemyKill(gameObject);
-    }*/
+    
 
 }

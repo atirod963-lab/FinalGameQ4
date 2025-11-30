@@ -6,24 +6,20 @@ public class HealSkill : Skill
 {
     public int healingAmountPerSecond = 12;
 
-    // ตัวแปรสำหรับเก็บค่าพลังชีวิตที่ต้องฟื้นฟูสะสม
     private float healAccumulator = 0f;
     public HealSkill()
     {
         this.skillName = "Heal";
         this.cooldownTime = 6;
-        this.Duration = 3f; // ระยะเวลาที่สกิลมีผล
+        this.Duration = 3f; 
     }
 
     public float Duration { get; set; }
 
-    // ต้อง Override เมธอด Activate()
     public override void Activate(Character character)
     {
         Debug.Log("Casting Heal Over Time!");
         timer = Duration;
-
-        // โค้ดที่ใช้ในการฟื้นฟูค่าพลังชีวิต
     }
 
     public override void Deactivate(Character character)
@@ -36,10 +32,8 @@ public class HealSkill : Skill
         timer -= Time.deltaTime;
         if (timer > 0)
         {
-            // สะสมค่าพลังชีวิตที่ต้องฟื้นฟู
             healAccumulator += Time.deltaTime;
 
-            // ถ้าค่าสะสมถึง 1 หรือมากกว่า ให้ทำการฟื้นฟูและหักค่าที่ใช้ไปออก
             if (healAccumulator >= 1)
             {
                 character.Heal(healingAmountPerSecond);
@@ -49,7 +43,6 @@ public class HealSkill : Skill
         }
         else
         {
-            // เมื่อระยะเวลาหมดลง
             Deactivate(character);
         }
     }
